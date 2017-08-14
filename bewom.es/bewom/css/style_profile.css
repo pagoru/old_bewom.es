@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+#profile_imageProfile{
+	width: 36px;
+	height: 36px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	float: left; 
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+#profile_nameProfile{
+	float:left; 
+	margin-left: 8px; 
+	margin-top: 8px;
+}
+
+#profileColumnLeft{
+	float: left;
+	width: 290px;
+	padding-right: 4px;
+	border-right: 2px solid #C3C3C3;
+}
+
+#profileColumnRight{
+	float: left;
+	width: 248px;
+	padding-left: 4px;
+	border-left: 2px solid #C3C3C3;
+}
+
+#profileColumnRight2{
+	float: left;
+	width: 574px;
+	padding-left: 4px;
+	border-left: 2px solid #C3C3C3;
+}
+
+#profileColumnCenter{
+	float: left;
+	width: 248px;
+	padding-left: 4px;
+	border-left: 2px solid #C3C3C3;
+	padding-right: 4px;
+	border-right: 2px solid #C3C3C3;
+}

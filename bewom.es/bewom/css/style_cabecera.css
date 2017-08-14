@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";	
+#header_menu_profile a, #header_menu_profile a:link, #header_menu_profile a:visited {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: 0px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+}
+
+#mp a {
+	padding-left: 20px;
+}

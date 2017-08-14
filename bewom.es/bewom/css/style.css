@@ -1,0 +1,232 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin: 0px;
+	
+	image-rendering:optimizeSpeed;             /* Legal fallback */
+	image-rendering:-moz-crisp-edges;          /* Firefox        */
+	image-rendering:-o-crisp-edges;            /* Opera          */
+	image-rendering:-webkit-optimize-contrast; /* Safari         */
+	image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+	image-rendering:crisp-edges;               /* CSS4 Proposed  */
+	image-rendering:pixelated;                 /* CSS4 Proposed  */
+	-ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #454545;
+	image-rendering: -moz-crisp-edges;
+	
+	cursor: default;
+}
+
+textarea, input{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header{
+	height: 66px;
+	border-bottom: 8px solid rgb(51, 51, 51);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#header_info{
+	border-bottom: 8px solid #333;
+	position: absolute;
+	padding: 8px;
+	border-radius: 0px 0px 16px 0px;
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 66px;
+}
+
+#header_logo{
+    background: transparent url("/assets/pokeball_logo.png") no-repeat scroll -32px -32px / 130px auto;
+    height: 66px;
+    width: 66px;
+    float: left;
+    margin-left: 24px;
+	margin-right: 24px;
+}
+
+#header_logo_simple {
+    background: transparent url("/assets/pokeball_logo.png") no-repeat scroll 50% -32px / 130px auto;
+    height: 66px;
+    float: left;
+    width: 100%;
+}
+
+#header_select{
+	height: 66px;
+	display: table;
+	float: left;
+}
+
+#header_profile{
+	height: 66px;
+	display: table;
+	float: right;
+}
+
+a:link, a:visited{
+	color: #454545;
+	text-decoration: none;
+}
+
+header a, header a:link, header a:visited{
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	display: table-cell; 
+	vertical-align: middle;
+	letter-spacing: -2px;
+	padding: 6px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+header a:hover{
+	-o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;
+	transition:.3s;
+}
+
+#insideDiv {
+    padding: 4px;
+}
+
+header a.selected{
+	background: #ad2a2a;
+}
+
+#barebone{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-bottom: 20px;
+}
+
+#page{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: rgb(223, 223, 223);
+	padding: 84px 8px 8px;
+	border-width: 0px 4px 4px;
+	border-style: none solid solid;
+	border-color: #333 #333;
+	display: table-cell;
+}
+
+#header_profile img{
+	padding: 0px; 
+	border-radius: 8px; 
+	float: right; 
+	height: 44px; 
+	width: 44px;
+}
+
+#profile_image{
+	width: 36px;
+	height: 36px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	margin-right: 18px;
+	margin-top: 4px;
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+#profile_nick{
+	float: left;
+	margin-top: 12px;
+	margin-left: 8px;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0px;
+	padding: 0px;
+}
+
+hr {
+	background-color: #c3c3c3;
+	height: 4px;
+	border: 0px;
+	margin: 0px;
+}
+
+.admin{
+	color: #AA0000;
+}
+
+.mod{
+	color: #00AA00;
+}
+
+.vip{
+	color: #00AAAA;
+}
+
+.miembro{
+	color: #555555;
+}
+
+a.admin:link, a.admin:visited{
+	color: #AA0000;
+	text-decoration: none;
+}
+
+a.mod:link, a.mod:visited{
+	color: #00AA00;
+}
+
+a.vip:link, a.vip:visited{
+	color: #00AAAA;
+}
+
+a.miembro:link, a.miembro:visited{
+	color: #555555;
+}
+
+.adminBa{
+	background-color: #AA0000;
+}
+
+.modBa{
+	background-color: #00AA00;
+}
+
+.vipBa{
+	background-color: #00AAAA;
+}
+
+.miembroBa{
+	background-color: #555555;
+}
+
+#columnLeft{
+	float:left; 
+	width: 562px; 
+	padding-right:4px; 
+	border-right: 2px solid #C3C3C3;
+	display: table-cell;
+}
+
+#columnRight{
+	float:left; 
+	width: 302px; 
+	padding-left:4px; 
+	border-left: 2px solid #C3C3C3;
+	display: table-cell;
+}
+
+#insideDiv{
+	padding: 4px;
+	font-size: 14px;
+}

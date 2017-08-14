@@ -1,0 +1,449 @@
+@CHARSET "ISO-8859-1";
+table{
+	width: 100%;
+	padding:0; 
+	margin:0;
+	border-collapse: collapse;
+	border-bottom: 4px solid #808080;
+}
+tr{
+	background-color: #fff;
+}
+
+/*************************/
+
+.categorias-foro-tr{
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.categorias-foro-td{
+	padding: 8px;
+	position: relative;
+}
+
+	.categorias-foro-td-info{
+		width: 40%;
+	}
+	
+	.categorias-foro-td-last{
+		width: 50%;
+	}
+	
+	.categorias-foro-td-stats{
+		width: 10%;
+	}
+
+.categorias-foro-titulo{
+	font-weight: bold;
+}
+
+.categorias-foro-descripcion{
+	color: #808080;
+	font-size: 12px;
+}
+
+.categorias-foro-icono{
+	height: 32px;
+	width: 32px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.categorias-foro-info{
+	float:left;
+	margin-left: 8px;
+}
+
+.categorias-foro-numTemas{
+	color: #808080;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 8px;
+}
+
+.categorias-foro-temas{
+	color: #808080;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 8px;
+}
+
+.categorias-foro-numTemas-count {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.categorias-foro-link{
+	display: table-cell;
+}
+
+.categorias-foro-ultimosTemas{
+	color: #808080;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px;
+	padding: 8px;
+}
+
+.categorias-foro-ultimosTemas a:link, .categorias-foro-ultimosTemas a:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+.categorias-foro-ultimoTemaFecha{
+	margin-left: 8px;
+	font-weight: 900;
+	font-size: 10px;
+}
+
+/*************************/
+
+.temas-categoria-tr{
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.temas-categoria-tr-foro{
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.temas-categoria-td{
+	padding: 8px;
+	position: relative;
+}
+
+	.temas-categoria-td-title{
+		width: 70%;
+	}
+	.temas-categoria-td-user{
+		width: 10%;
+	}
+	.temas-categoria-td-reply{
+		width: 10%;
+	}
+	.temas-categoria-td-views{
+		width: 10%;
+	}
+
+.temas-categoria-icono{
+	height: 32px;
+	width: 32px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.temas-categoria-title-exterior{ 
+	float: left;
+	margin-left: 8px;
+	width: 100%;
+}
+
+.temas-categoria-title{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.temas-categoria-user{
+	color: #808080;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px;
+	padding: 8px;
+	margin-left: 8px;
+	font-weight: 900;
+	font-size: 10px;
+}
+.temas-categoria-reply{
+	color: #808080;
+	position: absolute;
+	bottom: 0px;
+	padding: 8px;
+	font-size: 22px;
+font-weight: 600;
+}
+.temas-categoria-views{
+	color: #808080;
+	font-size: 16px;
+	position: absolute;
+	bottom: 0px;
+	padding: 8px;
+}
+.temas-categoria-selector{
+	font-weight: 900;
+	font-size: 12px;
+	color: #808080;
+}
+
+/*************************/
+
+.tema-tr{
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.tema-tr-foro{
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.tema-tr-other{
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.tema-td{
+	padding: 8px;
+	position: relative;
+}
+
+	.tema-td-user{
+		width: 10%;
+		vertical-align:top
+	}
+	.tema-td-text{
+		width: 90%;
+		vertical-align:top
+	}
+
+.tema-td-user-in{
+}
+
+.tema-td-user-photo{
+	width: 32px;
+	height: 32px;
+	border: 4px solid;
+	padding: 0px;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75) inset;
+	margin: 23px;
+	top: 0px;
+}
+
+.tema-td-text-user{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #808080;
+}
+
+.tema-td-text-text{
+	margin: 0px 8px 8px 0px;
+	font-size: 13px;
+}
+
+.tema-td-text-hr {
+    background-color: #C3C3C3;
+    height: 2px;
+    border: 0px none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.tema-td-text-inner{
+	
+}
+
+
+.nameHover {
+	position: absolute;
+	background-color: #333;
+	margin-top: 28px;
+	margin-left: 28px;
+	padding: 4px;
+	border-radius: 0px 6px 6px 6px;
+	font-weight: 800;
+	font-size: 12px;
+	color: #FFF;
+	box-shadow: 4px 4px 0px 0px rgba(105, 105, 105, 0.5);
+}
+
+/*************************/
+/*************************/
+/*************************/
+
+.absolute-background{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+	cursor: pointer;
+}
+
+.absolute-box{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+}
+
+.absolute-inside-box{
+	height: 400px;
+	width: 800px;
+	background-color: #DFDFDF;
+	top: 50%;
+	left: 50%;
+	margin-top: -204px;
+	margin-left: -404px;
+	position: absolute;
+	cursor: default;
+	z-index: 100;
+	
+	border-width: 4px;
+	border-style: solid;
+	border-color: #333;
+}
+
+.textarea-absolute{
+    margin: 0px;
+    resize: none;
+    width: 100%;
+    height: 157px;
+    padding: 8px;
+    border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	border-color: rgba(51, 51, 51, 0.5);
+}
+
+.preview-absolute{
+	border-color: #DFDFDF ;
+	border-width: 4px 0px 0px 0px;
+	border-style: solid;
+	margin: 0px;
+    height: 157px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 8px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.submit-absolute {
+    height: 34px;
+    margin-bottom: 4px;
+    width: 50%;
+    background-color: #CF3232;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color:  #A00;
+    border-image: none;
+    color: #FFF;
+    font-weight: bold;
+    float: right;
+}
+
+.submit-absolute:disabled {
+    border-width: 2px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.submit-absolute:active{
+	border-width: 2px 0px 0px;
+}
+
+.input-absolute-title{
+	height:32px;
+	padding-left: 8px;
+	border: 0px;
+	border-bottom: 4px solid #DFDFDF;
+}
+
+.absolute-bb {
+    width: 156px;
+    float: left;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-right: 4px solid #DFDFDF;
+}
+.absolute-form {
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+
+.restante-absolute{
+	float: right;
+	padding: 8px;
+	font-weight: bold;
+}
+.absolute-option {
+    margin: 4px 4px 0px;
+    font-size: 11px;
+    background-color: #fff;
+    padding: 0px 4px 0px 4px;
+}
+.absolute-option-title{
+	background-color: #F2F2F2;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+.openCrear{
+	cursor: pointer;
+}
+
+/*******************/
+#diaHora_torneo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    letter-spacing: -2px;
+    color: #FFF;
+}
+#titulo_torneo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    letter-spacing: -1px;
+    margin-left: 4px;
+    margin-right: 8px;
+}
+#Submit_torneo{
+    height: 34px;
+    margin-bottom: 4px;
+    background-color: #CF3232;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color: -moz-use-text-color -moz-use-text-color #A00;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    font-weight: bold;
+}
+#Submit_torneo:active{
+	border: 0px solid;
+	border-top: 2px solid #A00;
+}
+
+#full_title_torneo {
+    border-bottom: 4px solid #333;
+    margin-bottom: 4px;
+}
+#interior_torneo{
+	background-color: #DFDFDF;
+	border-bottom: 4px solid #333;
+	margin-bottom: 4px;
+	padding: 16px;
+}
+
+#submit_torneo_form {
+    width: 100%;
+    float: none;
+}
+
+
+/****************MODO ADMIN***************/ 
+
+.edit_buttons{
+	margin-left: 20px;
+}
+.edit_buttons a{
+	color: #808080;
+	margin-left: 10px;
+	cursor: pointer;
+}

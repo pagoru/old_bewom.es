@@ -1,0 +1,41 @@
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^perfil/(.*) perfil.php?params=$1 [L]
+RewriteRule ^perfil(.*) perfil.php [L]
+RewriteRule ^404(.*) 404.php [L]
+RewriteRule ^donaciones(.*) donaciones.php [L]
+RewriteRule ^crear/(.*) crear.php?params=$1 [L]
+RewriteRule ^normas(.*) normas.php [L]
+RewriteRule ^adblock/(.*) adblock.php?param1=$1 [L]
+RewriteRule ^adblock(.*) adblock.php [L]
+RewriteRule ^torneos/(.*) torneos.php?param1=$1 [L]
+RewriteRule ^torneos(.*) torneos.php [L]
+RewriteRule ^entrar(.*) entrar.php [L]
+RewriteRule ^login/(.*) login.php?param1=$1 [L]
+RewriteRule ^logout(.*) logout.php [L]
+RewriteRule ^login/(.*) login.php?param1=$1 [L]
+RewriteRule ^verify/(.*) verify.php?param1=$1 [L]
+RewriteRule ^ajustes(.*) ajustes.php [L]
+RewriteRule ^admin(.*) admin.php [L]
+RewriteRule ^test/(.*) test.php?p=$1 [L]
+RewriteRule ^test2/(.*) test2.php?p=$1 [L]
+RewriteRule ^guia(.*) guia.php [L]
+RewriteRule ^redirect/(.*) redirect.php?param=$1 [L]
+RewriteRule ^terminos(.*) terminos.php [L]
+RewriteRule ^cookies(.*) cookies.php [L]
+RewriteRule ^comandos(.*) comandos.php [L]
+RewriteRule ^moderador(.*) moderador.php [L]
+RewriteRule ^post/(.*) post.php?p=$1 [L]
+
+RewriteRule ^_foro/(.*) _foro.php?param1=$1 [L]
+RewriteRule ^_foro(.*) _foro.php [L]
+
+RewriteRule ^foro/(.*) foro.php?p=$1 [L]
+RewriteRule ^foro(.*) foro.php [L]
+
+RewriteCond %{REQUEST_URI} !^/instalador
+
+
+ErrorDocument 404 http://bewom.es/404

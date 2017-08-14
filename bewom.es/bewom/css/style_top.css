@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+#top{
+	padding: 8px; 
+	display: table-cell; 
+	width: 286px;
+	margin-bottom: 4px;
+	float:right;
+	
+	background-color: #FFF;
+	border-bottom: 2px solid #808080;
+}
+
+#top_puntos{
+	float: right; 
+	padding-left: 4px; 
+	font-weight: bold; 
+	font-size: 16px;
+}
+#top_pokename{
+	font-weight: none; 
+	font-size: 12px; 
+	margin-left: 32px;
+}
+
+#top_poke{
+	height: 32px; 
+	width: 32px; 
+	position: absolute; 
+	margin-top: -12px; 
+}
+
+#top_name{
+	float: left; 
+	padding-left: 4px; 
+	font-weight: bold;
+}
+
+#top_image{
+	width: 24px;
+	height: 24px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	float: left; 
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+/*      ORO      */
+#top_oro_poke{
+	height: 32px; 
+	width: 32px; 
+	position: absolute; 
+	margin-top: -4px; 
+}
+
+#top_oro_puntos{
+	float: right; 
+	padding-left: 4px; 
+	font-weight: bold; 
+	font-size: 28px;
+}
+
+#top_oro{
+	padding: 8px; 
+	display: table-cell; 
+	width: 286px;
+	margin-bottom: 4px;
+	float:right;
+	
+	background-color: #FFB41D;
+	border-bottom: 2px solid #805a0f;
+	z-index: 1000;
+	
+}
+
+#top_oro_image{
+	width: 36px;
+	height: 36px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	float: left; 
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+/*      PLATA      */
+#top_plata_poke{
+	height: 32px; 
+	width: 32px; 
+	position: absolute; 
+	margin-top: -8px; 
+}
+
+#top_plata_puntos{
+	float: right; 
+	padding-left: 4px; 
+	font-weight: bold; 
+	font-size: 24px;
+}
+
+#top_plata{
+	padding: 8px; 
+	display: table-cell; 
+	width: 286px; 
+	margin-bottom: 4px;
+	float:right;
+	
+	background-color: #AAAAAA;
+	border-bottom: 2px solid #2b2b2b;
+}
+
+#top_plata_image{
+	width: 32px;
+	height: 32px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	float: left; 
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+/*      BRONCE      */
+#top_bronce{
+	padding: 8px; 
+	display: table-cell; 
+	width: 286px; 
+	margin-bottom: 4px;
+	float:right;
+	
+	background-color: #EF7533;
+	border-bottom: 2px solid #703718;
+}
+
+#top_bronce_image{
+	width: 28px;
+	height: 28px;
+	float: right;
+	border: 4px solid;
+	padding: 0px;
+	float: left; 
+	
+	-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+#top_bronce_puntos{
+	float: right; 
+	padding-left: 4px; 
+	font-weight: bold; 
+	font-size: 20px;
+}
